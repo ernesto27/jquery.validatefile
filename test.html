@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<form action="" method="post" enctype="multipart/form-data">
+
+		<input type="file" id="f">	
+		<br>
+		<input type="submit" value="upload">
+
+	</form>
+
+	<div>afsdfdsa</div>
+	
+
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="jquery.validatefile.js"></script>
+	
+	<script>
+	$("#f").validateFile({
+		support: "pdf",
+		size: "6000kb"
+	});
+	</script>
+
+</body>
+</html>
